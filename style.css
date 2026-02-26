@@ -99,6 +99,7 @@ h3 {
 #description-bottom div {
     display: flex;
     gap: 0.5rem;
+    align-items: center;
 }
 #size {
     color: var(--cyan400);
