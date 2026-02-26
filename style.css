@@ -41,13 +41,14 @@
 body {
     background-color: var(--main-BG);
     font-family: 'Outfit', Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    height: 100vh;
 }
 .attribution {
     display: none;
-}
 }
 main{
     background-color: var(--card-BG);
@@ -56,7 +57,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 1rem;
+    padding: 1.5rem;
     border-radius: 0.75rem;
 }
 section {
@@ -66,23 +67,53 @@ section {
     align-items: center;
     justify-content: center;
 }
+}
+@layer top-part {
 #image {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin-bottom: 1.5rem;
 }
 #image img{
     border-radius: 0.75rem;
     width: 100%;
 }
-h1 {
+h3 {
     color: var(--white);
     margin-block: 0.5rem;
+    
 }
+
+#description-top p{
+    color: var(--blue500);
+    margin-block: 1.5rem;
+}
+#description-bottom{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+#description-bottom div {
+    display: flex;
+    gap: 0.5rem;
+}
+#size {
+    color: var(--cyan400);
+}
+#time {
+    color: var(--blue500);
+    
+}
+}
+@layer bottom-part {
 #line{
     width: 100%;
 }
 hr{
     color: var(--line);
+}
+
 }
