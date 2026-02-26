@@ -1,3 +1,4 @@
+@layer fonts {
 /* outfit-300 - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -21,8 +22,19 @@
   font-style: normal;
   font-weight: 600;
   src: url('../fonts/outfit-v15-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}}
+
+:root{
+--blue500:hsl(215, 51%, 70%);
+--cyan400: hsl(178, 100%, 50%);
+--main-BG: hsl(217, 54%, 11%); 
+--card-BG: hsl(216, 50%, 16%); 
+--line: hsl(215, 32%, 27%); 
+--white: hsl(0, 0%, 100%);
 }
 
 *{
-    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
