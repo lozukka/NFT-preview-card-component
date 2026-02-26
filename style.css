@@ -75,6 +75,7 @@ section {
     justify-content: center;
     width: 100%;
     margin-bottom: 1.5rem;
+    cursor: pointer;
 }
 #image img{
     border-radius: 0.75rem;
@@ -83,6 +84,10 @@ section {
 h3 {
     color: var(--white);
     margin-block: 0.5rem;
+    cursor: pointer;
+}
+h3:hover{
+    color: var(--cyan400);
     
 }
 
@@ -141,5 +146,9 @@ hr{
 }
 #name {
     color: var(--white);
+    cursor: pointer;
+}
+#name:hover{
+    color: var(--cyan400);
 }
 }
